@@ -18,7 +18,7 @@
     "eucookies"
   ],
   "dependencies": {
-    "jquery": "*",
+    "jquery": "*"
   },
   "author": "Stefan Kecskes <info@skey.uk> (https://skey.uk)",
   "license": "MIT",
