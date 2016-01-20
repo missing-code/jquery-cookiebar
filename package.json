@@ -1,0 +1,29 @@
+{
+  "name": "jquery-cookiebar",
+  "version": "1.0.0",
+  "description": "jQuery CookieBar Plugin",
+  "main": "jquery.cookiebar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missing-code/jquery-cookiebar.git"
+  },
+  "keywords": [
+    "cookie",
+    "cookiebar",
+    "jquery",
+    "cookielaw",
+    "eucookies"
+  ],
+  "dependencies": {
+    "jquery": "*",
+  },
+  "author": "Stefan Kecskes <info@skey.uk> (https://skey.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/missing-code/jquery-cookiebar/issues"
+  },
+  "homepage": "https://github.com/missing-code/jquery-cookiebar#readme"
+}
