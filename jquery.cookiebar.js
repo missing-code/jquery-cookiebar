@@ -175,9 +175,18 @@
 			var anyClick = function(e){
 				if(!$(e.target).hasClass('cb-policy')) cookieAccept();
 			};
-			
-			$('#cookie-bar .cb-enable').click(function(){cookieAccept();return false;});
-			$('#cookie-bar .cb-disable').click(function(){cookieDecline();return false;});
+
+            $(document).on('click touchstart', '#cookie-bar .cb-enable',function($event) {
+                event.preventDefault();
+                cookieAccept();
+                return false;
+            });
+            $(document).on('click touchstart', '#cookie-bar .cb-disable',function($event) {
+                event.preventDefault();
+                cookieDecline();
+                return false;
+            });
+
 			if(options.acceptOnScroll){
 				var scrollStart = $(document).scrollTop(),scrollNew,scrollDiff;
 				$(document).on('scroll',function(){
