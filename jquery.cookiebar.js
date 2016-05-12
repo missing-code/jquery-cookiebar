@@ -177,12 +177,12 @@
 			};
 
             $(document).on('click touchstart', '#cookie-bar .cb-enable',function($event) {
-                event.preventDefault();
+                $event.preventDefault();
                 cookieAccept();
                 return false;
             });
             $(document).on('click touchstart', '#cookie-bar .cb-disable',function($event) {
-                event.preventDefault();
+                $event.preventDefault();
                 cookieDecline();
                 return false;
             });
