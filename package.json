@@ -1,6 +1,6 @@
 {
   "name": "jquery-cookiebar",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "jQuery CookieBar Plugin",
   "main": "jquery.cookiebar.js",
   "scripts": {
